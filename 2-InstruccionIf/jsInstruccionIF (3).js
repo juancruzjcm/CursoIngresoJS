@@ -4,9 +4,9 @@ function mostrar()
 var edad;
  edad = document.getElementById("edad").value;
         if (edad >= 18) {
-            document.write("Eres mayor de edad");
+            alert("Eres mayor de edad");
          } else {
-             document.write("No eres mayor de edad");
+             alert("No eres mayor de edad");
          }
         
      //menor que   <

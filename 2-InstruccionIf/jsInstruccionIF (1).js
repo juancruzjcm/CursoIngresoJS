@@ -7,9 +7,9 @@ var edad;
     //creo la funcion if
 
     if( edad == 15){
-        document.write("La niña bonita");
+        alert("La niña bonita");
     } else {
-        document.write("La niña fea");
+        alert("La niña fea");
     }
     //envio la respuesta al id de "edad"
     

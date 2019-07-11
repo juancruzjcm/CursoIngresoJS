@@ -1,10 +1,10 @@
 function mostrar()
 {
 	//Genero el número RANDOM entre 1 y 10 
+	//var calc; no va
 
-
-	//var ramdon = Math.round(math.ramdon()*10)+1;
-	//ramdon = document.getElementById("FormIngreso").value;
+	let calc = Math.floor((Math.random() * 10) + 1);
+	alert(calc)
 	 
 	
 	

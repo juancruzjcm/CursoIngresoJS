@@ -10,7 +10,8 @@ edad = document.getElementById("edad").value;
 civil = document.getElementById("estadoCivil").value;
     //luego pido que edad sea menor a 18 y que el estado civil sea distinto a Soltero
     if(edad < 18 && civil != "Soltero"){
-        document.write("Es muy pequeño para No estar soltero");
+        //document.write("Es muy pequeño para No estar soltero");
+        alert("Es muy pequeño para No estar soltero");
     }else{
         //nada
     }
