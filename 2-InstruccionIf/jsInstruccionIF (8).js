@@ -7,15 +7,15 @@ var civil = "Soltero";
 edad = document.getElementById("edad").value;
 civil = document.getElementById("estadoCivil").value;
 
-    if(edad >= 18 && civil == "Soltero" ){
+    if(edad >= 18 /*&& civil == "Soltero"*/ ){
         //document.write("Es soltero y no es menor de edad");
-        alert("Es soltero y no es menor de edad");
-    }else{
-        //nada
+        
+    if(civil == "Soltero"){
+        //no hacer nada
+                alert("Es soltero y no es menor de edad");
+        } 
+    
     }
-
-	
-
 
 
      //menor que   <

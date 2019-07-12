@@ -3,14 +3,18 @@ function mostrar()
 	//Genero el número RANDOM entre 1 y 10 
 	
 	let calc = Math.floor((Math.random() * 10) + 1);
-	
+	console.log(calc)
 	if (calc >= 9){
+
 		alert("EXCELENTE");
 
-	}else if(calc > 4 ){
+	}if(calc > 4 && calc <=8 ){
+
 		alert("APROBÓ");
-	}else{
-		alert("VAMOR LA PROXIMA SE PUEDE");
+
+	}if(calc < 4 && calc > 0){
+
+		alert("VAMOS LA PROXIMA SE PUEDE" );
 	}
 	
 
