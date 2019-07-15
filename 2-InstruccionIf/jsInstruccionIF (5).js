@@ -2,16 +2,23 @@ function mostrar()
 {
 //tomo la edad  
 var edad;
+
  edad = document.getElementById("edad").value;
+ 
 
-    if (edad >= 13 && edad <= 17){
-        alert("Eres adolecente");
-        //document.write("Eres adolecente");
-     }else {
-         alert("No sos adolecente");
-         //document.writ("no sos adolecnete");
-     }
+    if (edad >= 18){
 
+        alert("No es adolecente")
+    }
+    
+
+    if (edad <= 13){   
+
+            alert("No eres adolecente")
+        }
+     
+
+     // esto es "o"||
      //menor que   <
      //mayor que   >
      //menor igual <=
